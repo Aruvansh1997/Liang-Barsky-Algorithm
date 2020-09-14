@@ -1,5 +1,3 @@
-import networkx as nx
-
 def liangbarsky(xmax,xmin,ymax,ymin,x1,y1,x2,y2):
     p,q,t=dict(),dict(),dict()
     p[0]=-(x2-x1)
