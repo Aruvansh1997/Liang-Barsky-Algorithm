@@ -36,6 +36,7 @@ def liangbarsky(xmax,xmin,ymax,ymin,x1,y1,x2,y2):
         yy1=y1+t1*p[3]
         yy2=y1+t2*p[3]
         print(xx1,yy1,xx2,yy2)
+        return -1
     else:
         print("Line outside the rectangle/window")
         return 1
